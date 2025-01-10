@@ -1,0 +1,70 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+ul,li,ol {list-style: none; margin: 0; padding: 0; box-sizing:border-box;}
+            
+header {width: 1200px; height: 160px; margin: 0 auto; 
+    position: relative; display: flex;justify-content: center; align-items: center;}
+
+header > .logo {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); width: 250px; height: 80px;}
+        .logo > img{width: 100%; height: 100%;}
+        .login { width: 300px; height: 40px; position: absolute; top: 10px; right: 10px;}
+        .login>ul {font-size: 10px;}
+        .login>ul>li {float: left; margin: 5px 5px; }
+        .login>ul>li>a {text-decoration: none; color: #8e8e8e;}
+        .login>ul>li>a:hover{color:black;}
+
+
+    nav {width: 600px; height: 30px; position: absolute; bottom: 10px; left: 50%; text-align: center;transform: translateX(-50%)}
+        nav > ul {font-size: 18px;}
+        nav > ul > li {float:left;  margin: 10px 0 0 30px;}
+        nav > ul > li > a:hover{cursor: pointer; font-weight: bolder;}
+        nav > ul > li > a { text-decoration: none; font-family: 'Nanum Gothic'; color: rgb(102, 101, 101);}
+
+    section{width:1200px; height: 2000px; margin: 0 auto; }
+/* 메인배너 */
+    section >.mainb > a> img {width: 100%; height: 100%;}
+        h3{text-align: center; margin: 10px;}
+        h5{text-align: center; color:rgb(148, 148, 148);}
+
+
+/* 중간배너 */
+    section >.centerb > img{width: 100%; height: 100%;}
+ /* 상단메뉴 */
+    #best {width: 1160px; height: 500px; margin: 0 auto;
+        float:left; margin:20px 20px; padding:10px; 
+        border: 1px solid #ddd;} 
+        .box {width: 230px; height: 230px; float:left; 
+            margin: 20px 0 0 44px;}
+        .box >a >img {width: 100%; height: 100%; float: left; margin: 0 px;}
+    #best > .box > span {width: 100%; height: 20px; display: block;float: left; font-size: 10px; color: #8e8e8e; text-decoration: none;}
+    #best > .box > p {font-size: 13px; color:black ; font-weight: bold; text-decoration: none; border-bottom: 1px solid #ddd; line-height: 25px;margin: 50px 0 0 0px;}
+    .cash {display: flex; justify-content: flex-start; align-items: center; gap: 25px;}
+    .c1 {font-size:16px; ; font-weight: bold; color: #99314b; display:block; margin: 0px; }
+    .c2 {font-size:12px; color:#555555; display:block; font-weight:bold; margin: 0px; opacity: 0.8;}
+    .c3 {font-size:18px; color:#000; display:block; font-weight:bold; margin: 0px;}
+
+/* 센터메뉴 */
+    #centerm  {width: 1160px; height: 850px; margin: 0 auto;
+        float:left; margin:20px 20px; padding:10px; 
+        border: 1px solid #ddd;}  
+        .box1 {width: 230px; height: 230px; float:left; 
+            margin: 20px 0 0 44px;}
+        .box1 >a >img {width: 100%; height: 100%; float: left;margin:  0px;}
+    #centerm > .box1 > p {font-size: 13px; color:black ; font-weight: bold; text-decoration: none; border-bottom: 1px solid #ddd; line-height: 25px;margin: 10x;}
+    #centerm > .box1 > span {width: 100%; height: 20px; display: block;float: left; font-size: 10px; color: #8e8e8e; text-decoration: none;}
+    .cash1 {display: flex; justify-content: flex-start; align-items: center; gap: 25px;}
+    .cs1 {font-size:16px; ; font-weight: bold; color: #99314b; display:block; margin: 0px; }
+    .cs2 {font-size:12px; color:#555555; display:block; font-weight:bold; margin: 0px; opacity: 0.8;}
+    .cs3 {font-size:18px; color:#000; display:block; font-weight:bold; margin: 0px;}
+        .box2 {width: 230px; height: 230px; float:left; 
+        margin: 130px 0 0 44px;}
+        .box2 >a >img {width: 100%; height: 100%; float: left;margin:  0px;}
+    #centerm > .box2 > p {font-size: 13px; color:black ; font-weight: bold; text-decoration: none; border-bottom: 1px solid #ddd; line-height: 25px;margin: 10x;}
+    #centerm > .box2 > span {width: 100%; height: 20px; display: block;float: left; font-size: 10px; color: #8e8e8e; text-decoration: none;}
+
+    
+
+    footer{width:1200px; height: 300px; margin: 0 auto; background-color: rgb(25, 0, 255);} 
+    fbox {width: 400px; height: 200px; background-color: #000; float: left;}
+    
+    
